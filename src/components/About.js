@@ -1,7 +1,7 @@
 import React from 'react'
 import { about } from '../utils/data'
 import styled from 'styled-components'
-import ScrollToTop from 'react-scroll-to-top'
+// import ScrollToTop from 'react-scroll-to-top'
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
           )
         })}
       </div>
-      <ScrollToTop smooth />
+      {/* <ScrollToTop smooth /> */}
     </Wrapper>
   )
 }
