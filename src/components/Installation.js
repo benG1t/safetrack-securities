@@ -40,6 +40,7 @@ const Wrapper = styled.section`
     place-items: center;
   }
   video {
+    width: 80vw;
   }
   h2 {
     text-align: center;
