@@ -55,7 +55,12 @@ const Navbar = () => {
             const { id, url, icon } = socialIcon
             return (
               <li key={id}>
-                <a href={url} target='_blank' rel='noreferrer'>
+                <a
+                  href={url}
+                  target='_blank'
+                  rel='noreferrer'
+                  className='logos'
+                >
                   {icon}
                 </a>
               </li>
@@ -91,6 +96,11 @@ const Wrapper = styled.nav`
   .logo {
     height: 60px;
     width: 80px;
+  }
+  .logos {
+    svg {
+      font-size: 1.5rem;
+    }
   }
   .links a {
     color: var(--clr-grey-3);

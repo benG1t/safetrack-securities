@@ -1,8 +1,8 @@
 import React from 'react'
 import {
   FaInstagram,
-  FaFacebook,
-  FaTwitter,
+  // FaFacebook,
+  // FaTwitter,
   FaWhatsapp,
   FaTruck,
   FaPeopleCarry,
@@ -56,21 +56,21 @@ export const links = [
 export const social = [
   {
     id: 1,
-    url: 'https://instagram.com/',
+    url: 'https://instagram.com/safetrack_securities?r=nametag',
     icon: <FaInstagram />,
   },
+  // {
+  //   id: 2,
+  //   url: 'https://www.FaFacebook.com',
+  //   icon: <FaFacebook />,
+  // },
+  // {
+  //   id: 3,
+  //   url: 'https://www.linkedin.com/in/benjamin-okundaye-15b048197/',
+  //   icon: <FaTwitter />,
+  // },
   {
     id: 2,
-    url: 'https://www.FaFacebook.com',
-    icon: <FaFacebook />,
-  },
-  {
-    id: 3,
-    url: 'https://www.linkedin.com/in/benjamin-okundaye-15b048197/',
-    icon: <FaTwitter />,
-  },
-  {
-    id: 4,
     url: 'https://api.whatsapp.com/send?phone=2348037829276',
     icon: <FaWhatsapp />,
   },
