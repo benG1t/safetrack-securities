@@ -87,9 +87,9 @@ export const about = [
   {
     id: 2,
     icon: <FaTruck />,
-    service: 'logistics',
+    service: 'installation',
     description:
-      'We engage in a Rapid Nationwide delivery and state residence response which is concerned with our company’s ability to satisfy customer service requirements in a timely manner. Information technology has increased the capability to postpone logistical operations to the latest possible time and then accomplish rapid delivery of required inventory.',
+      'We engage in a Rapid Nationwide delivery/installation and state residence response which is concerned with our company’s ability to satisfy customer service requirements in a timely manner. Information technology has increased the capability to postpone logistical operations to the latest possible time and then accomplish rapid delivery of required inventory.',
   },
   {
     id: 3,
@@ -213,7 +213,7 @@ export const contactinfo = [
     id: 2,
     icon: <MdEmail />,
     title: 'email',
-    contactone: 'info@safetracksecurities.com.ng,',
+    contactone: 'safetrack_secure@outlook.com,',
     contacttwo: 'augustineapekhume@gmail.com',
   },
   {

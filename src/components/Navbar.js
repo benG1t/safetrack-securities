@@ -89,8 +89,8 @@ const Wrapper = styled.nav`
     transform: rotate(90deg);
   }
   .logo {
-    height: 40px;
-    width: 60px;
+    height: 60px;
+    width: 80px;
   }
   .links a {
     color: var(--clr-grey-3);
