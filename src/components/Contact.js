@@ -1,8 +1,13 @@
 import React from 'react'
+import { useForm, ValidationError } from '@formspree/react'
 import styled from 'styled-components'
 import { contactinfo } from '../utils/data'
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm('mjvdqbny')
+  if (state.succeeded) {
+    return <p>Thanks for the Message!</p>
+  }
   return (
     <Wrapper className='section' id='contact'>
       <h2 className='contact-head'>contact</h2>
@@ -28,7 +33,7 @@ const Contact = () => {
         {/* <!-- contact form --> */}
         <article className='contact-form'>
           <h3>contact us</h3>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className='form-group'>
               {/* <!-- inputs --> */}
               <input
@@ -36,22 +41,44 @@ const Contact = () => {
                 placeholder='name'
                 className='form-control'
                 name='name'
+                id='name'
+              />
+              <ValidationError
+                prefix='Name'
+                field='name'
+                errors={state.errors}
               />
               <input
                 type='email'
                 placeholder='email'
                 className='form-control'
                 name='email'
+                id='email'
+              />
+              <ValidationError
+                prefix='Email'
+                field='email'
+                errors={state.errors}
               />
               <textarea
                 name='message'
+                id='message'
                 placeholder='message'
                 className='form-control'
                 rows='5'
               ></textarea>
+              <ValidationError
+                prefix='Message'
+                field='message'
+                errors={state.errors}
+              />
             </div>
             {/* <!-- button --> */}
-            <button type='submit' className='submit-btn btn'>
+            <button
+              type='submit'
+              className='submit-btn btn'
+              disabled={state.submitting}
+            >
               submit here
             </button>
           </form>

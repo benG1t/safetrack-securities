@@ -1,9 +1,11 @@
 import React from 'react'
 import {
-  FaInstagram,
+  // FaInstagram,
   // FaFacebook,
   // FaTwitter,
-  FaWhatsapp,
+  FaInstagramSquare,
+  // FaWhatsapp,
+  FaWhatsappSquare,
   FaTruck,
   FaPeopleCarry,
   FaLocationArrow,
@@ -19,11 +21,12 @@ import cctvscreen from '../images/cctvscreen.JPG'
 import camera from '../images/camera.JPG'
 import walkietalkie from '../images/walkietalkie.jpeg'
 import bodyscanner from '../images/bodyscanner.jpeg'
-import spybutton from '../images/spybutton.JPG'
+// import spybutton from '../images/spybutton.JPG'
 import glasscamera from '../images/glasscamera.JPG'
 import solar from '../images/solar.jpg'
 import battery from '../images/battery.JPG'
 import handcuf from '../images/handcuf.JPG'
+import eventsecuriy from '../images/eventsecuriy.jpg'
 // images Slides
 import one from '../images-testimonials/one.jpg'
 import two from '../images-testimonials/two.jpg'
@@ -57,7 +60,7 @@ export const social = [
   {
     id: 1,
     url: 'https://instagram.com/safetrack_securities?r=nametag',
-    icon: <FaInstagram />,
+    icon: <FaInstagramSquare />,
   },
   // {
   //   id: 2,
@@ -72,7 +75,7 @@ export const social = [
   {
     id: 2,
     url: 'https://api.whatsapp.com/send?phone=2348037829276',
-    icon: <FaWhatsapp />,
+    icon: <FaWhatsappSquare />,
   },
 ]
 
@@ -145,8 +148,8 @@ export const portfoliopics = [
   },
   {
     id: 8,
-    image: spybutton,
-    name: 'spy button camera',
+    image: eventsecuriy,
+    name: 'events securiy',
   },
   {
     id: 9,

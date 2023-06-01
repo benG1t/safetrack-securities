@@ -16,7 +16,7 @@ const Installation = () => {
           Your browser does not support the video tag.
         </video>
         <div className='training'>
-          <h2>Training section</h2>
+          <h2>Core values</h2>
           <div className='underline'></div>
           <p>
             Safetrack Security’s core values are to listen to our customers and

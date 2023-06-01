@@ -99,7 +99,7 @@ const Wrapper = styled.nav`
   }
   .logos {
     svg {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
   .links a {
